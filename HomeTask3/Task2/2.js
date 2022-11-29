@@ -1,6 +1,12 @@
-const name1 = prompt("Привет! Как тебя зовут?")
-function greeting(n) {
-    return `Привет, ${n}!`
-}
-console.log(greeting(name1)) 
-alert(greeting(name1))
+// const userName = prompt("Привет! Как тебя зовут?");
+// function greeting(name) {
+//     return `Привет, ${name}!`;
+// }
+// console.log(greeting(userName));
+// alert(greeting(userName));
+
+const userName = prompt("Привет! Как тебя зовут?");
+function greeting(name) {
+    return console.log(`Привет, ${name}!`);
+    }
+greeting(userName)
